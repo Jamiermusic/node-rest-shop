@@ -15,7 +15,7 @@ router.post('/', (req, res, next) => {
     res.status(201).json({
         message: 'Order was created',
         orders: order
-    });s
+    });
 });
 
 router.get('/:orderId', (req, res, next) => {
